@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Save Open Tabs",
+    "description": "Saves all currently opened Chrome tabs into a JSON file.",
+    "version": "1.0",
+    "permissions": ["tabs", "downloads"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
