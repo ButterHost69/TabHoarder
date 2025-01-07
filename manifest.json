@@ -3,7 +3,7 @@
     "name": "Save Open Tabs",
     "description": "Saves all currently opened Chrome tabs into a JSON file.",
     "version": "1.0",
-    "permissions": ["tabs", "downloads"],
+    "permissions": ["tabs", "downloads", "bookmarks"],
     "background": {
       "service_worker": "background.js"
     },
